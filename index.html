@@ -1,1 +1,462 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio profesional — Ingeniería en Energías y Sostenibilidad. Proyectos fotovoltaicos, análisis tecno-económico y sostenibilidad." />
+  <title>José David Barrios Franco | Portfolio</title>
 
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">JDBF</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only">Abrir menú</span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+          <a class="nav-link" href="#experiencia">Experiencia</a>
+          <a class="nav-link" href="#habilidades">Habilidades</a>
+          <a class="nav-link" href="#formacion">Formación</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </div>
+      </nav>
+
+      <a class="btn btn-ghost header-cta" href="assets/CV_actualizado.pdf" target="_blank" rel="noopener">
+        Descargar CV
+      </a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Ingeniería en Energías y Sostenibilidad</p>
+          <h1 class="hero-title">José David Barrios Franco</h1>
+          <p class="hero-subtitle">
+            Evaluación y viabilidad de sistemas fotovoltaicos, análisis tecno-económico (LCOE/VPN/TIR),
+            normativa y conexión, y sostenibilidad aplicada a infraestructura crítica.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-ghost" href="assets/CV_actualizado.pdf" target="_blank" rel="noopener">Descargar CV</a>
+          </div>
+
+          <div class="hero-badges" aria-label="Resumen rápido">
+            <div class="badge">
+              <div class="badge-kpi">3</div>
+              <div class="badge-label">variantes FV modeladas</div>
+            </div>
+            <div class="badge">
+              <div class="badge-kpi">214–423 kWp</div>
+              <div class="badge-label">rango de capacidad</div>
+            </div>
+            <div class="badge">
+              <div class="badge-kpi">346–684 MWh/año</div>
+              <div class="badge-label">generación estimada</div>
+            </div>
+            <div class="badge">
+              <div class="badge-kpi">PR ~84%</div>
+              <div class="badge-label">rendimiento (aprox.)</div>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a class="chip" href="mailto:josebarriosetc@gmail.com" aria-label="Enviar correo">
+              <span class="chip-ico" aria-hidden="true">
+                <!-- mail icon -->
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                  <path d="M4 6h16v12H4V6Z" stroke="currentColor" stroke-width="1.6"/>
+                  <path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              josebarriosetc@gmail.com
+            </a>
+
+            <a class="chip" href="https://www.linkedin.com/in/jose-david-barrios-franco" target="_blank" rel="noopener" aria-label="Abrir LinkedIn">
+              <span class="chip-ico" aria-hidden="true">
+                <!-- linkedin icon -->
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+                  <path d="M6.5 9.5V18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <path d="M6.5 6.7h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                  <path d="M10.2 18v-5.2c0-1.8 1.2-3.2 3-3.2s3 1.4 3 3.2V18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M10.2 9.5V18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+              </span>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card" data-reveal>
+          <div class="frame" aria-hidden="true"></div>
+          <div class="hero-card-inner">
+            <p class="quote">
+              “Trabajo con metodología: modelo, comparo escenarios, cuantifico impactos y traduzco resultados en decisiones.”
+            </p>
+
+            <dl class="mini-list">
+              <div class="mini-item">
+                <dt>Enfoque</dt>
+                <dd>FV + tecno-economía + sostenibilidad</dd>
+              </div>
+              <div class="mini-item">
+                <dt>Herramientas</dt>
+                <dd>PVsyst, Python, Excel</dd>
+              </div>
+              <div class="mini-item">
+                <dt>Normativa</dt>
+                <dd>RETIE, NTC 2050, AGPE/OR (ESSA)</dd>
+              </div>
+            </dl>
+
+            <!-- Opcional: si agregas assets/profile.jpg, descomenta esto
+            <div class="portrait">
+              <img src="assets/profile.jpg" alt="Foto de José David Barrios Franco" />
+            </div>
+            -->
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Proyecto destacado</p>
+          <h2 class="section-title">Sistema Solar FV — PTAP “La Flora” (AMB)</h2>
+          <p class="section-lead">
+            Estudio de viabilidad para implementación FV sobre infraestructura crítica, integrando análisis técnico,
+            normativo, ambiental y financiero con soporte de decisión.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-reveal>
+            <h3 class="card-title">Contexto</h3>
+            <p class="card-text">
+              Evaluación de alternativas fotovoltaicas para reducción de costos energéticos y huella de carbono,
+              incluyendo escenarios de autoconsumo y excedentes.
+            </p>
+            <ul class="bullets">
+              <li>Infraestructura: PTAP “La Flora”</li>
+              <li>Objetivo: viabilidad técnica y económica</li>
+              <li>Salida: informe con recomendación</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3 class="card-title">Metodología</h3>
+            <ul class="bullets">
+              <li>Modelación y comparación de 3 variantes en PVsyst (v8.x)</li>
+              <li>Estimación de generación, PR y fracción solar</li>
+              <li>Modelo económico: CAPEX/OPEX + LCOE, VPN, TIR, payback</li>
+              <li>Sensibilidad y escenarios operativos (autoconsumo/excedentes)</li>
+            </ul>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3 class="card-title">Resultados (resumen)</h3>
+            <div class="kpi-grid">
+              <div class="kpi">
+                <div class="kpi-value">214–423 kWp</div>
+                <div class="kpi-label">Capacidad instalada (variantes)</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-value">346–684 MWh/año</div>
+                <div class="kpi-label">Generación anual estimada</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-value">PR ~84%</div>
+                <div class="kpi-label">Performance Ratio (aprox.)</div>
+              </div>
+              <div class="kpi">
+                <div class="kpi-value">LCOE / VPN / TIR</div>
+                <div class="kpi-label">Métricas de decisión</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3 class="card-title">Normativa y sostenibilidad</h3>
+            <ul class="bullets">
+              <li>Encuadre AGPE/AGME y requisitos de conexión con OR (ESSA)</li>
+              <li>Seguridad eléctrica: RETIE y NTC 2050</li>
+              <li>Lineamientos de gestión ambiental y monitoreo de variables operativas</li>
+            </ul>
+
+            <div class="card-actions">
+              <a class="btn btn-ghost" href="#contacto">Solicitar versión detallada / anexos</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Más trabajo</p>
+          <h3 class="section-title small">Proyectos y semilleros</h3>
+          <p class="section-lead">
+            Participación en proyectos de energías renovables con modelamiento, simulación y análisis de datos.
+          </p>
+        </div>
+
+        <div class="cards two">
+          <article class="card" data-reveal>
+            <h3 class="card-title">Modelamiento y simulación</h3>
+            <p class="card-text">
+              Trabajo aplicado en análisis de rendimiento de sistemas energéticos y optimización de recursos.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">EES</span>
+              <span class="tag">Matlab</span>
+              <span class="tag">Dialux EVO</span>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3 class="card-title">Diseño y prototipado</h3>
+            <p class="card-text">
+              Apoyo en programación/diseño de sistemas y comunicación técnica de resultados.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Solidworks</span>
+              <span class="tag">Blender</span>
+              <span class="tag">Informes técnicos</span>
+              <span class="tag">Presentaciones</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section alt">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Trayectoria</p>
+          <h2 class="section-title">Experiencia</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item" data-reveal>
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-top">
+                <h3 class="tl-title">Practicante — Ingeniería en Energías y Sostenibilidad (AMB)</h3>
+                <p class="tl-meta">Jul. 2025 – Nov. 2025 · Bucaramanga</p>
+              </div>
+              <ul class="bullets">
+                <li>Informe de viabilidad FV para PTAP “La Flora”.</li>
+                <li>Modelación PVsyst, análisis autoconsumo/excedentes, y métricas LCOE/VPN/TIR.</li>
+                <li>Encuadre AGPE/AGME, conexión OR (ESSA) y requisitos de seguridad RETIE/NTC 2050.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item" data-reveal>
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-top">
+                <h3 class="tl-title">Participante — Proyectos y Semilleros (UNAB)</h3>
+                <p class="tl-meta">Desde Feb. 2022 · Bucaramanga</p>
+              </div>
+              <ul class="bullets">
+                <li>Modelamiento, simulación y análisis de datos para soluciones energéticas.</li>
+                <li>Herramientas: Python, EES, Matlab, Dialux EVO, Solidworks, Blender.</li>
+                <li>Elaboración de informes técnicos y presentaciones.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item" data-reveal>
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-body">
+              <div class="tl-top">
+                <h3 class="tl-title">Auxiliar Contable / Analista de Datos</h3>
+                <p class="tl-meta">Feb. 2019 · Empresa Contable Privada</p>
+              </div>
+              <ul class="bullets">
+                <li>Organización y análisis de datos financieros; reportes para toma de decisiones.</li>
+                <li>Precisión en presupuestos, control de gastos y sistematización.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Stack</p>
+          <h2 class="section-title">Habilidades</h2>
+          <p class="section-lead">Con énfasis en FV, evaluación tecno-económica y análisis de datos.</p>
+        </div>
+
+        <div class="skills" data-reveal>
+          <div class="skill-col">
+            <h3 class="skill-title">Modelación FV</h3>
+            <div class="tag-row">
+              <span class="tag">Simulación</span>
+              <span class="tag">Pérdidas</span>
+              <span class="tag">Escenarios</span>
+              <span class="tag">PVsyst</span>
+            </div>
+          </div>
+
+          <div class="skill-col">
+            <h3 class="skill-title">Tecno-economía</h3>
+            <div class="tag-row">
+              <span class="tag">CAPEX/OPEX</span>
+              <span class="tag">LCOE</span>
+              <span class="tag">VPN</span>
+              <span class="tag">TIR</span>
+              <span class="tag">Payback</span>
+              <span class="tag">Sensibilidad</span>
+            </div>
+          </div>
+
+          <div class="skill-col">
+            <h3 class="skill-title">Normativa y conexión</h3>
+            <div class="tag-row">
+              <span class="tag">RETIE</span>
+              <span class="tag">NTC 2050</span>
+              <span class="tag">AGPE/AGME</span>
+              <span class="tag">OR (ESSA)</span>
+            </div>
+          </div>
+
+          <div class="skill-col">
+            <h3 class="skill-title">Datos y herramientas</h3>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">Excel</span>
+              <span class="tag">Matlab</span>
+              <span class="tag">EES</span>
+              <span class="tag">Dialux EVO</span>
+              <span class="tag">Solidworks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="section alt">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Formación</p>
+          <h2 class="section-title">Educación y certificaciones</h2>
+        </div>
+
+        <div class="cards two">
+          <article class="card" data-reveal>
+            <h3 class="card-title">Ingeniería en Energías y Sostenibilidad</h3>
+            <p class="card-text">
+              Universidad Autónoma de Bucaramanga (UNAB) · 2020–2025<br />
+              Enfoque en energías renovables, análisis de sistemas energéticos y sostenibilidad.
+            </p>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3 class="card-title">Cursos (selección)</h3>
+            <ul class="bullets compact">
+              <li>Python (básico/intermedio) · May. 2022</li>
+              <li>Python (avanzado) · Sep. 2024</li>
+              <li>Introducción al Análisis de Datos · Nov. 2022</li>
+              <li>DIgSILENT PowerFactory (INEL) · especialización</li>
+              <li>Simulación de sistemas eléctricos (INEL) · especialización</li>
+              <li>LCA para energía solar en Colombia (Unimagdalena) · Ago. 2025</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="contact" data-reveal>
+          <div class="contact-copy">
+            <p class="eyebrow">Contacto</p>
+            <h2 class="section-title">Conversemos</h2>
+            <p class="section-lead">
+              Si quieres revisar el caso de estudio completo (anexos, supuestos, resultados detallados)
+              o hablar de oportunidades, escríbeme.
+            </p>
+
+            <div class="contact-actions">
+              <a class="btn" href="mailto:josebarriosetc@gmail.com">Enviar correo</a>
+              <a class="btn btn-ghost" href="https://www.linkedin.com/in/jose-david-barrios-franco" target="_blank" rel="noopener">
+                Ver LinkedIn
+              </a>
+              <a class="btn btn-ghost" href="assets/CV_actualizado.pdf" target="_blank" rel="noopener">
+                Descargar CV
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="frame" aria-hidden="true"></div>
+            <div class="contact-card-inner">
+              <dl class="mini-list">
+                <div class="mini-item">
+                  <dt>Ubicación</dt>
+                  <dd>Piedecuesta / Bucaramanga, Colombia</dd>
+                </div>
+                <div class="mini-item">
+                  <dt>Correo</dt>
+                  <dd><a href="mailto:josebarriosetc@gmail.com">josebarriosetc@gmail.com</a></dd>
+                </div>
+                <div class="mini-item">
+                  <dt>LinkedIn</dt>
+                  <dd><a href="https://www.linkedin.com/in/jose-david-barrios-franco" target="_blank" rel="noopener">jose-david-barrios-franco</a></dd>
+                </div>
+              </dl>
+
+              <p class="fineprint">
+                Consejo: cuando lo publiques, agrega 1–2 imágenes del proyecto (capturas PVsyst / tablas) para que el caso se vea más sólido.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <noscript>
+          <p class="noscript">Nota: tu navegador tiene JavaScript deshabilitado; algunas animaciones y el menú móvil no se mostrarán.</p>
+        </noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> José David Barrios Franco</p>
+      <p class="muted">Hecho para GitHub Pages · HTML/CSS/JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
